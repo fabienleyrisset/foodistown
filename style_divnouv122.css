@@ -1,6 +1,7 @@
 /* V1.2.2 */
 
-@media screen and (orientation: portrait) {
+@media only screen and (orientation: portrait)
+ {
   /* rules for iPad in landscape orientation */
   
 #haut
@@ -473,7 +474,8 @@ color:#444444;
 
 
 
-@media screen and (orientation: landscape) {
+@media only screen and (orientation: landscape)
+and (min-device-width : 320px) {
   /* rules for iPad in landscape orientation */
   
 #haut
