@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script>
+  jQuery("#responsive_headline").fitText();
+  //V1.2.3
+</script>
+
+
+  <title>FoodisTown</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+  <style type="text/css">
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style_divnouv122.css" />
+
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFjS5juAqfjo5vk6cO-zJJmkYQNDrlnQ&amp;sensor=false&amp;region=fr">
+//src="https://maps.googleapis.com/maps/api/place/radarsearch/json?name=rosa bonheur&AIzaSyAhFjS5juAqfjo5vk6cO-zJJmkYQNDrlnQ&sensor=false&region=fr">
+  </script>
+
+  <script type="text/javascript" src="jquery.js"></script>
+
+ <script type="text/javascript" src="js.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Noto+Serif">
+    <style>
+      body {
+        font-family: 'Noto Serif', serif;
+      }
+    </style>
+
+</head>
+
+
+<body>
+
+
+
+
+<div id="haut">
+	<div id="haut_gauche">
+		<div id="titre"></div>
+		<div id="soustitre">Toute la gastronomie à portée de main!</div>
+	</div>
+	<div id="haut_droite">
+		<div id="image_couvert">
+
+		</div>
+		 <div id="sousfb">Toute la gastronomie à portée de main!</div>
+		<div id="fb-root">
+<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
+		</div>
+		
+		
+	</div>
+	
+</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 		<script src="jquery.fittext.js"></script>
+		<script type="text/javascript">
+		
+
+		
+		$("#titre").fitText(1, { minFontSize: '16px', maxFontSize: '80px' });
+		$("#soustitre").fitText(1.7, { minFontSize: '8px', maxFontSize: '24px' });
+		</script>
+		
+	
+
+
+
+
+
+<div id="titre2"></div>
+	<ul id="onglets">
+		<li id="search" class="actif"></li>
+		<li id="liste"></li>
+		<li id="plan"></li>
+	</ul>
+	<div id="contenu">
+		<div  id="search-item" class="item">
+			<div id="saisie">
+
+			
+			Trouvez les meilleures tables autour de vous! 
+			<br>
+
+			
+			
+			
+			<input id="monadresse_f" type="search" value="" size="65" maxlength="255" style="font-size:70%">
+      		<input type="button" style="font-size:70%" value="Chercher!" onclick="getmonadresse(document.getElementById('monadresse_f').value)">
+			
+			<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places&amp;sensor=false"></script>
+			<script type="text/javascript">
+			//document.getElementById("saisie_nouvelle").style.display="none";
+			var options = {
+   
+   				componentRestrictions: {country: 'fr'}
+			};
+			var inpute = document.getElementById('monadresse_f');
+
+			autocomplete = new google.maps.places.Autocomplete(inpute, options);
+
+			google.maps.event.addListener(autocomplete, 'place_changed', function() {
+			$('inpute').blur();
+			
+			getmonadresse(document.getElementById('monadresse_f').value);
+  			  });
+  			  
+  			  $('inpute').on('submit', function(event){
+   			 event.preventDefault();
+			});
+			//sUrl = 'testdata.php';
+			sUrl = 'Data_ajax_xml.php';
+			//sUrl = 'test.php';
+			//document.write(sUrl);
+			//
+			//document.write(action);
+			//document.write(Distance);
+			aParams = {
+			"type": "Action",
+			"action": "rien",
+			"distance": "Distance"
+			};
+			//Monadresse = document.forms["form1"].elements["monadresse"].value;
+			//alert("monadresse" + Monadresse);
+
+			</script>
+			<script src="jquery.fittext.js"></script>
+			<script type="text/javascript">
+		
+		
+			$("#saisie").fitText(3.5, { minFontSize: '8px', maxFontSize: '15px' });
+			</script>
+			
+			
+			
+			<footer>
+				<p>Copyright FoodisTown - Tous droits réservés<br>
+				<a href="mailto:foodistown@gmail.com">Nous contacter !</a></p>
+			</footer>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+			<script src="jquery.fittext.js"></script>
+			<script type="text/javascript">
+			$("footer").fitText(3.5, { minFontSize: '6px', maxFontSize: '16px' });
+			</script>
+
+			
+			</div>
+		
+		</div>
+		<div  id="liste-item" class="item">
+			<div id="contenu_gauche">
+			</div>
+		
+		</div>
+		<div  id="plan-item" class="item">
+			<div id="contenuP">
+				<div id="contenu_droite">
+	
+					<div id="Plan"></div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html> 
