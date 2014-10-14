@@ -1,0 +1,481 @@
+
+
+
+
+/* Smartphones (portrait) ----------- */
+@media screen
+and (orientation: portrait)
+and (max-width: 750px)
+
+ {
+
+#haut
+{
+
+
+	width:100%;
+	max-width:1200px;
+	min-height:56px;
+
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.0);
+margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#haut_gauche{
+	border: 1px solid green;
+	float:left;
+	width:35%;
+margin-top:1px;
+		display: inline-block;
+
+	background-color: rgba(0, 0, 0, 0.0);
+
+	}
+	
+	
+#haut_droite {
+position: relative;
+height:72px;
+width:60%;
+border: 1px solid yellow;
+margin-top:1px;
+display:inline-block;
+
+background-color: rgba(0, 0, 0, 0.0);
+}
+
+#fb-root {
+width:90px;
+height:30%;
+margin-top:4%;
+display:inline-block;
+background-color: rgba(0, 0, 0, 0.0);
+}
+
+#sousfb{
+border: 1px solid red;
+height:40%;
+text-align: center;
+
+margin-top: 5%;
+display:inline-block;
+color:black;
+	font-size: 15px;
+	font: bold;
+
+}
+
+#image_couvert {
+
+border: 1px solid black;
+width:48%;
+height:90px;
+position: relative;
+display: none;
+background-image:url(panneaufourche.jpg);
+background-size:80px 80px;
+			background-repeat:    no-repeat;
+			background-position:  center;
+
+}
+
+
+#titre {
+border: 1px solid red;
+width:90%;
+height:80px;
+position: relative;
+display: inline-block;
+background-image:url(iconefoodistown114x114.png);
+background-size:70px 70px;
+			background-repeat:    no-repeat;
+			background-position:  center;
+
+}
+
+#titre2 {
+border: solid red;
+border-width:1%;
+margin-left:2%;
+float: left;
+width:25%;
+max-width:120px;
+height:18%;
+position: relative;
+display: none;
+background-image:url(iconefoodistown114x114.png);
+background-size:99%;
+			background-repeat:    no-repeat;
+			background-position:  center;
+
+}
+
+#soustitre{
+display:none;
+margin-top: 0,5%;
+text-align:center;
+color:black;
+	font-size: 11px;
+
+}
+
+.travmod {
+
+width: 98%;
+max-width: 5px;
+
+
+}
+						
+img#icon {
+
+width: 98%;
+max-width: 150px;
+opacity:0.6;
+
+display: inline;
+
+}
+
+.icon_award {
+width: 100%;
+
+}
+
+.lieu {
+display: inline-block;
+
+float:left;
+}
+
+.suite {
+
+float:left;
+display: inline-block;
+width:100%;
+
+
+}
+
+.elem_lieu {
+	display: inline-block;
+	width:100%;
+
+	background-color: rgba(209, 209, 209, 0.4);
+}	
+
+.elem_lieu_gauche{
+	display: inline-block;
+	float:left;
+	width:100%;
+	}
+	
+.elem_lieu_droite {
+	float:right;
+	width:15%;
+}
+
+	
+
+div#contenuP {
+
+	margin-top: 1%;
+display: inline-block;
+		width:100%;
+	max-width:1200px;
+
+	
+margin-left: auto;
+    margin-right: auto;
+
+
+
+	}
+div#contenu_gauche {
+
+	width:100%;
+	height:auto;
+min-height:100px;
+
+text-align: left;
+
+
+	}
+	
+div#contenu_droite {
+
+	width:95%;
+	height:auto;
+	display: inline-block;
+min-height:260px;
+
+	}
+
+Body{
+
+	width:100%;
+	background-image:url(ville448sanscontre.jpg);
+	background-size:25%;  
+	text-align: center;
+	height: 100%;
+
+
+}
+
+div#saisie{
+
+
+	margin-top: 1%;
+		width:98%;
+	max-width:1200px;
+	background-color: rgba(0, 0, 0, 0.0);
+	margin-left: auto;
+    margin-right: auto;
+   
+
+
+	}
+
+
+div#saisie_nouvelleold{
+
+
+	height: 50%;
+		width:98%;
+	background-color: rgba(0, 0, 0, 0.0);
+	display: none;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+   
+
+
+	} 
+	
+div#saisie_nouvelle{
+
+position:absolute;
+        z-index: 1;
+
+	background-color: rgba(0, 0, 0, 0.0);
+	display: none;
+	margin-top: 1%;
+	margin-left:1%;
+    margin-bottom: 1%;
+
+   
+
+
+	}
+
+	
+div#Plan {
+
+	width:100%;
+	height:260px;
+
+
+	}
+	
+	
+div#Panel {
+float:right;
+	width:35%;
+	max-height:460px;
+
+	background-color: rgba(256, 256, 256, 0.7);
+
+
+	}
+	
+@font-face { 
+		font-family: 'Little Snorlax'; 
+		src: url('Little Snorlax.ttf'); 
+	}
+
+@font-face { 
+		font-family: 'Needlework Good'; 
+		src: url('Needlework Good.ttf'); 
+	}
+	
+Footer{
+	width:98%;
+	max-width:1200px;
+margin-left: auto;
+    margin-right: auto;
+	margin-top: 2%;
+
+border-width:1px;
+}
+	
+#doigt a {
+padding: 10px 10px 10px 77px;
+/* pour les vieux navigateurs */
+background:#FAC27E url(/images/main.png) no-repeat 5px 10px; 
+/* pour les navigateurs récents */
+background: rgba(255,140,0,0.4) url(/images/main.png) no-repeat 5px 10px;
+border: 1px solid #FF8C00;
+border-radius: 5px;
+}
+p#doigt a:hover, p#doigt a:focus {
+color: black;
+background-color:#ff8c00; /* pour les vieux navigateurs */
+background-color: rgba(255,140,0,1);
+-webkit-transition: background-color 2s linear;
+}
+
+
+
+
+
+
+	@font-face { 
+		font-family: 'Decibel_2'; 
+		src: url('Decibel_2.ttf'); 
+		}
+		
+		
+ 
+	
+#onglets{
+			display: none;
+			max-width:780px;
+			height:15%;
+		}
+		
+		/*
+		
+		#onglets li{
+			position: relative;
+			float: left;
+			list-style: none;
+			padding: 2px 5px 7px;
+			margin-right: 5px;
+			border: 1px solid #1175AE;
+			cursor: pointer;
+			background-color: #EEEEEE;
+			color: #0D5995;
+			z-index: 1;
+		}
+			#onglets .actif{
+			border-bottom: none;
+			font-weight: bold;
+			z-index: 10;
+		}
+			#contenu{
+			clear: both;
+			position: relative;
+			margin: 0 20px;
+			padding: 10px;
+			border: 5px solid #0D5995;
+			z-index: 5;
+			top: -6px;
+			background-color: #EEEEEE;
+			color: #0F67A1;
+			width: 300px;
+			overflow: hidden;
+			border-radius: 15px;
+		}
+		*/
+		
+		
+#onglets li{
+			position: relative;
+			float: right;
+			list-style: none;
+			padding: 0,3% 0,3% 0,3%;
+			margin-right: 2%;
+			border: solid #AAAAAA;
+			border-width:1%;
+			border-radius: 6%;
+			cursor: pointer;
+			background-color: #EEEEEE;
+			color: #444444;
+			z-index: 1;
+			background-repeat:    no-repeat;
+			background-position:  center;
+			width:22%;
+			max-width:130px;
+			height:120%;
+}
+#onglets .actif{
+			border-bottom: none;
+			font-weight: bold;
+			z-index: 10;
+}
+#contenu{
+			clear: both;
+			margin-right: 1%;
+			margin-left: 1%;
+			position: relative;
+			border: solid #AAAAAA;
+			border-width:2%;
+			z-index: 5;
+			top: -6px;
+			background-color: #EEEEEE;
+			color: #0F67A1;
+			width: 96%;
+			overflow:scroll;
+			border-radius: 5px;
+			max-width:800px;
+			height:75%;
+
+}
+		
+#search{
+			background-image:url(loupe-icone.png);
+}
+#liste{
+			background-image:url(liste-icone.png);
+
+}
+#plan{
+			background-image:url(map-icone.png);
+	
+
+}
+		
+div#search-item {
+
+
+}
+
+
+div#plan-item {
+
+}
+
+div#menu{
+display: none;
+width:100%;
+height:25px;
+background-color: rgba(0, 0, 0, 0.0);
+ padding:0;
+ margin:0;
+
+}
+
+
+.item_menu{
+width:32%;
+ padding:0;
+ margin:0;
+height:25px;
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+color:#444444;
+
+
+}
+
+
+
+}
+
+
+
