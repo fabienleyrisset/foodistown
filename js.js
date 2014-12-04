@@ -243,8 +243,8 @@ function delete_double(nb_reponses)
 		tab_award[t]=tabreq[i].award;
 		tab_lien[t]=tabreq[i].lien;
 		tab_guide[t]=tabreq[i].guide;
-		if(tabreq[i].nom == "Anne de Bretagne") 
-		{alert("anne");}
+		//if(tabreq[i].nom == "Anne de Bretagne") 
+		//{alert("anne");}
 		if(num == tabreq[i+1].numresto)
 		{
 			

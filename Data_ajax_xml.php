@@ -76,7 +76,7 @@
 		// Ajoute une personne
 		$current .= $xml;
 		// Écrit le résultat dans le fichier
-		file_put_contents($file, $current);
+		//file_put_contents($file, $current);
 		
 		echo $xml;
 		?>
